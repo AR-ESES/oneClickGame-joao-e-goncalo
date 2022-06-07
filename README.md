@@ -1,17 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7955883&assignment_repo_type=AssignmentRepo)
-# Projeto Final - “One-Click Game”
-
-### Introdução
-
-Pretende-se com este projeto que desenhem e implementem um pequeno jogo de apenas um comando (ao estilo Flappy Bird). A temática é livre, sendo que será valorizada a abordagem educativa e/ou o facto de tratarem um assunto que careça de maior atenção por parte do (de um) público.
-
-### Metodologia e Entregáveis
-
-1. Com base nas premissas definidas na introdução e no conhecimento adquirido na introdução à programação multimédia com P5js das primeiras aulas, é pedido que definam um ambiente de jogo e personagens e/ou artefactos. Esta definição poderá ser feita com recurso a imagens e/ou ilustrações digitais - Tal resultará num **conjunto de layouts** que permitirá o teste, a revisão e o planeamento das tarefas subsequentes;
-2. **Design de Comunicação** - Todos os jogos merecem uma identidade gráfica que atuará enquanto elemento aglutinador em concordancia com o espirito da temática e coerente com as opções gráficas do jogo. Esta deverá ser aplicada no jogo, na documentação (instruções) do mesmo e em elementos promocionais, digitais e físicos que achem mais apropriados!
-3. **Video** - Será também necessário documentar a utilização do jogo em video, quer através da captura de ecrã directa em pleno jogo como também através da ilustração da sua utilização tanto de um ponto de vista subjetivo como ilustrando o ambiente, idades e target da sua utilização. Tal deverá ser sumarizado um pequeno video promocional de 30 segundos.
-4. **Distribuição do Jogo -** Por fim, a distribuição livre do jogo deverá acontecer através da sua publicação no **Github**, tanto para utilização (estando ativas as **Github Pages** com o jogo a funcionar) como através da **documentação no Readme.md**, onde figurará toda a documentação originada pelos pontos anteriores.
-
-### Referências
-
-[Flappy Bird](https://flappybird.io/)
+Explicação do jogo: Neste jogo é pretendido que a personagem controlada pelo jogador (criança) salte por cima da outra personagem que irá aparecer aleatoriamente (pirata informático) através de um clique na tecla ''Espaço''. Caso o jogador falhe o salto e as personagens choquem, o jogador perde e o jogo recomeça.
+Público alvo: O público alvo deste jogo são as crianças que tenham começado a utilizar a internet, logo são as crianças com idades entre os 10 e 12 anos. 
+Objetivo do jogo: Pretende-se que ao jogar este jogo as crianças desenvolvam uma atenção maior ao usar a internet, sendo que, no jogo, o choque com o pirata informático representa os perigos cibernauticos e o salto por cima do pirata informático representa o cuidado que deve ser exercido pelas crianças ao utilizar a internet.
