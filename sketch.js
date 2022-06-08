@@ -1,29 +1,43 @@
-var xLoc = 0;
-var yLoc = 0;
-var score = 0;
-var speed = 1;
+let unicorn;
 
-function setup() {
-  createCanvas(400, 400);
-}
+let uImg;
+let tImg;
+let bImg;
+let trains = [];
 
-function draw() {
-  background(220);
-  frameRate(speed);
-  xLoc = random(0, width - 50);
-  yLoc = random(0, height - 50);
-  text("Score: " + score, 20, 21);
+function preload () {
+  uImg = loadImage ('unicorn.png');
+  tImg = loadImage ('train.png');
+  bImg = loadImage ('background.jpg');
   
-  rect(xLoc, yLoc, 50, 50);
+  
+}
+function setup() {
+  createCanvas(800, 450);
+unicorn = new Unicorn();
+
 }
 
-function mousePressed() {
-  if (mouseX > xLoc && mouseX < xLoc + 50 && mouseY > yLoc && mouseY < yLoc + 50) {
-    // console.log("button is clicked!")
-    score = score + 1;
-    instructions = "";
-  } else {
-    // console.log("you missed the button")
-    score = 0;
-  }
+function keyPressed(){
+   if(key === ' '){
+    unicorn.jump();
 }
+ } 
+  
+function draw() {
+  if (random(1) < 0.005) {
+    trains.push(new Train());
+  }
+  background(bImg);
+  unicorn.show();
+  unicorn.move();
+  
+  for (let t of trains){
+    t.move();
+    t.show();
+    if (unicorn.hits(t)) {7
+      console.log("Game Over!")
+      lost = true;
+      noLoop();
+    }
+}}
